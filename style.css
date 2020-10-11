@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #efefef;
+  font-family: sans-serif;
+}
+.profile-img {
+  width: 40%;
+  float: right;
+}
+.profile-img img {
+  width: 100%;
+  height: 100%;
+}
+.about {
+  margin-left: 15px;
+}
+.profile-info {
+  width: 60%;
+  height: 100vh;
+  float: left;
+  padding: 0 30px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.profile-info::-webkit-scrollbar {
+  width: 0px;
+}
+.profile-info h1 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.social-media img {
+  height: 20px;
+  margin-right: 15px;
+}
+.social-media {
+  margin-top: 20px;
+  margin-left: 15px;
+  display: grid;
+}
+.profile-info h2 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+.experience {
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background: #fff;
+}
+.experience img {
+  height: 60px;
+  margin: 5px;
+}
+.experience small {
+  padding-top: 20px;
+  display: block;
+}
+.organization {
+  display: inline-block;
+  width: 9cm;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background: #fff;
+}
+.organization p {
+  font-size: small;
+  text-align: center;
+  padding-top: 10px;
+}
+.form-box {
+  margin-top: 30px;
+}
+.input-group input {
+  width: 45%;
+  border: 0;
+  outline: none !important;
+  padding: 10px;
+  margin: 2%;
+  display: inline-block;
+  background: lightgray;
+}
+.text-area textarea {
+  width: 95%;
+  border: 0;
+  outline: none !important;
+  padding: 10px;
+  margin: 2%;
+  display: inline-block;
+  background: lightgray;
+}
+.submit-btn {
+  border: 0;
+  outline: none !important;
+  padding: 10px;
+  margin: 2%;
+  display: inline-block;
+  background: lightseagreen;
+  color: #fff;
+  cursor: pointer;
+}
+.contact img {
+  width: 20px;
+  margin: -5px 10px;
+}
+.contact span {
+  margin: 5%;
+}
+.contact {
+  margin: 2% 0 5% 1%;
+  width: 100%;
+}
+.copyright {
+  text-align: center;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 900px) {
+  .profile-info {
+    width: 100%;
+    overflow: inherit;
+  }
+  .profile-img {
+    width: 100%;
+  }
+  .experience {
+    width: 95%;
+    margin-bottom: 10%;
+  }
+  .experience img {
+    height: 70px;
+    margin: 10px 0;
+  }
+  .copyright {
+    margin-top: 30px;
+  }
+  /*.contact {
+    display: grid;
+  }*/
+}
